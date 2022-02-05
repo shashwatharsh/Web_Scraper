@@ -1,5 +1,4 @@
 import csv
-from urllib.error import HTTPError
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -16,7 +15,7 @@ row = []
 nos =0
 jdata={}
 for row in csvreader:
-    # for rcol in row:
+    
     country = row[3]
         
     asin = row[2]
